@@ -1,0 +1,66 @@
+<!--
+template for viewing page
+-->
+{% load static wagtailshiki_tags %}
+{% spaceless %}
+    <script>
+        if (typeof css_loaded === "undefined") {
+            const decorationsCss = document.createElement('link');
+            decorationsCss.setAttribute('rel', 'stylesheet');
+            decorationsCss.setAttribute('href', '{% static "wagtailshiki/css/decorations.css" %}');
+            decorationsCss.setAttribute('title', 'WAGSDecorationsStyleRules');
+            document.body.append(decorationsCss);
+
+            const css = document.createElement('link');
+            css.setAttribute('rel', 'stylesheet');
+            css.setAttribute('href', '{% static "wagtailshiki/css/wagtailshiki.css" %}');
+            document.body.append(css);
+
+            import("{% static 'wagtailshiki/js/syntax-highlight.js' %}").then((module) => {
+                module.setCSSStyleSheets({% decoration_styles %})
+            });
+
+            var css_loaded = true;
+        }
+    </script>
+
+    {% set shik_wrapper_id = "shiki-wrapper" %}
+    <div id="current-{{ shik_wrapper_id }}" class="shiki-wrapper"></div>
+ 
+    <script type="module">
+        import {renderPreviewBlock} from "{% static 'wagtailshiki/js/syntax-highlight.js' %}";
+        /*
+            define global variables registered in base.py(settings.py) if not defined
+        */
+        if (typeof window.shikiSet === "undefined") {
+            const shikiSet = {
+                PreviewMode: false,
+                theme: '{% theme %}',
+                darkTheme: '{% dark_theme %}',
+                enableLineNumbers: '{% plugin_line_numbers %}'.toLowerCase() === 'true',
+                enableCopyButton: '{% plugin_copy_to_clipboard %}'.toLowerCase() === 'true',
+                skipLeadingSpaces: '{% skip_leading_spaces %}'.toLowerCase() === 'true',
+                classPrefix: '{% class_prefix %}',
+                decorationStyles: {% decoration_styles %},
+            };
+            window.shikiSet = shikiSet;
+        }
+        
+        var block_num = (typeof block_num === 'undefined') ? 0 : block_num;
+        block_num++;
+        const shikiWrapperElement = await document.querySelector("#current-{{ shik_wrapper_id }}");
+        shikiWrapperElement.id = "{{ shik_wrapper_id }}" + '-' + block_num;
+        const None = null;
+        await renderPreviewBlock (
+            '{{ self.title }}',
+            `{{ self.code|safe|urlencode }}`,
+            '{{ self.language }}',
+            '{% theme %}',
+            '{% dark_theme %}',
+            shikiWrapperElement,
+            '{{ self.show_line_numbers }}'.toLowerCase() === 'true' ? true : false,
+            {{ self.start_number }} || 1,
+            `{{ self.highlight_words|safe }}`
+        );
+    </script>
+{% endspaceless %}

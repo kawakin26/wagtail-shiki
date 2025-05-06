@@ -1,0 +1,69 @@
+pre.shiki>code {
+	background: initial;
+}
+
+pre.shiki.line-numbers .line::before {
+	color: whitesmoke;
+}
+
+#highlight_words_dialog {
+	width: 32em;
+	border: none;
+	padding: 0;
+}
+
+#highlight_words_dialog::backdrop {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+#highlight_words_dialog .header {
+	background-color: #fff;
+	color: #a7d28d;
+	font-weight: bold;
+	padding: 2em 2em 1em;
+	position: sticky;
+	top: 0;
+}
+
+#highlight_words_dialog .body {
+	background-color: #fff;
+	padding: 2em 2em 3em;
+}
+
+#highlight_words_dialog .footer {
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+	position: sticky;
+	bottom: 0;
+	display: flex;
+}
+
+#highlight_words_dialog .button {
+	width: 50%;
+	height: 4em;
+	border: none;
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+}
+
+#highlight_words_dialog .button:hover {
+	opacity: 0.8;
+}
+
+#highlight_words_dialog .button.cancel {
+	background-color: #abb1ad;
+	color: #fff;
+}
+
+#highlight_words_dialog .button.ok {
+	background-color: #a7d28d;
+	color: #fff;
+}
+
+textarea[id$="-highlight_words"] {
+	resize: initial;
+	color: gray;
+	overflow: scroll;
+}

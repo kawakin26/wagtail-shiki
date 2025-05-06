@@ -1,0 +1,130 @@
+/* copy button */
+div.shiki-wrapper {
+	position: relative;
+}
+
+div.shiki-wrapper:hover>button.copy-button {
+	opacity: 1;
+}
+
+div.shiki-wrapper:focus-within>button.copy-button {
+	opacity: 1;
+}
+
+div.shiki-wrapper>button.copy-button {
+	position: absolute;
+	z-index: 10;
+	top: .3em;
+	right: 1em;
+	transition: opacity 0.3s ease-in-out;
+	opacity: 0;
+	cursor: pointer;
+	border: 0;
+	font: inherit;
+	line-height: normal;
+	overflow: visible;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	mix-blend-mode: exclusion;
+	color: white;
+	font-size: 1em;
+	padding: 0 .5em;
+	background: rgba(224, 224, 224, 0.2);
+}
+
+/* code title */
+h3.code-title {
+	position: absolute;
+	padding: 0em 0.5em;
+	color: var(--shiki);
+	border-left: solid 6px #168edf;
+	border-bottom: solid 1px #168edf;
+	border-radius: 5px 0 0 5px;
+	z-index: 10;
+	top: -2em;
+	left: 0em;
+	transition: opacity 0.3s ease-in-out;
+	opacity: 0.8;
+	font-size: 80%;
+	letter-spacing: 0.05em;
+	/*mix-blend-mode:  exclusion;*/
+}
+
+/* code body */
+div.shiki-wrapper:hover>h3.code-title {
+	opacity: 1;
+}
+
+pre.shiki {
+	position: relative;
+	padding: 0.5em 1.5em 0.5em 1.5em;
+	border-radius: 8px;
+	font-size: 100%;
+	line-height: 24px;
+	overflow: auto;
+}
+
+pre.shiki.line-numbers {
+	counter-reset: linenumber attr(data-start integer);
+}
+
+pre.shiki.line-numbers .line::before {
+	content: counter(linenumber);
+	counter-increment: linenumber;
+	width: 2.5rem;
+	margin-right: 1.5rem;
+	display: inline-block;
+	text-align: right;
+	color: inherit;
+	opacity: 0.5;
+}
+
+pre.shiki>code {
+	position: relative;
+	padding-left: 0em;
+}
+
+pre.shiki span.line {
+	text-wrap: nowrap;
+}
+
+html.dark .shiki,
+html.dark .shiki code,
+html.dark .shiki span {
+	color: var(--shiki-dark) !important;
+	background-color: var(--shiki-dark-bg) !important;
+}
+
+html.dark .code-title {
+	color: var(--shiki-dark);
+	background-color: var(--shiki-dark-bg);
+}
+
+@media (max-width: 1023px) {
+	div.shiki-wrapper>button.copy-button {
+		margin: 0;
+	}
+
+	h3.code-title {
+		margin: 0;
+	}
+
+	pre.shiki {
+		margin: 50px 0;
+	}
+}
+
+@media (min-width: 1024px) {
+	div.shiki-wrapper>button.copy-button {
+		margin: 0 5%;
+	}
+
+	h3.code-title {
+		margin: 0 5%;
+	}
+
+	pre.shiki {
+		margin: 50px 5%;
+	}
+}

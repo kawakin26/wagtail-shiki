@@ -1,0 +1,90 @@
+<!--
+    template for editing page
+-->
+
+{% load static wagtailcore_tags wagtailadmin_tags wagtailshiki_tags %}
+<script>
+    if (typeof css_loaded === "undefined") {
+        const decorationsCss = document.createElement('link');
+        decorationsCss.setAttribute('rel', 'stylesheet');
+        decorationsCss.setAttribute('href', '{% static "wagtailshiki/css/decorations.css" %}');
+        decorationsCss.setAttribute('title', 'WAGSDecorationsStyleRules');
+        document.body.append(decorationsCss);
+        
+        const css = document.createElement('link');
+        css.setAttribute('rel', 'stylesheet');
+        css.setAttribute('href', '{% static "wagtailshiki/css/wagtailshiki.css" %}');
+        document.body.append(css);
+
+        const adminCss = document.createElement('link');
+        adminCss.setAttribute('rel', 'stylesheet');
+        adminCss.setAttribute('href', '{% static "wagtailshiki/css/wagtailshiki-admin.css" %}');
+        document.body.append(adminCss);
+
+        import("{% static 'wagtailshiki/js/syntax-highlight.js' %}").then((module) => {
+            module.setCSSStyleSheets({% decoration_styles %})
+        });
+
+        var css_loaded = true;
+    }
+
+    /*
+        define global variables registered in base.py(settings.py) if not defined
+    */
+    if (typeof window.shikiSet === "undefined") {
+        const shikiSet = {
+            PreviewMode: true,
+            theme: '{% theme %}',
+            darkTheme: '{% dark_theme %}',
+            enableLineNumbers: '{% plugin_line_numbers %}'.toLowerCase() === 'true',
+            enableCopyButton: '{% plugin_copy_to_clipboard %}'.toLowerCase() === 'true',
+            skipLeadingSpaces: '{% skip_leading_spaces %}'.toLowerCase() === 'true',
+            removeDecorationsFrontSpaces: '{% remove_decorations_front_spaces %}'.toLowerCase() === 'true',
+            removeDecorationsRearSpaces: '{% remove_decorations_rear_spaces %}'.toLowerCase() === 'true',
+            decorationOptions: {% decoration_options %},
+            decorationStyles: {% decoration_styles %},
+            hideHighlightWordsInput: '{% hide_highlightwords_input %}'.toLowerCase() === 'true',
+            classPrefix: '{% class_prefix %}',
+        };
+        window.shikiSet = shikiSet;
+    }
+    /*
+        create decoration select dialog
+    */
+    if (typeof window.decorationSelectDialog === "undefined")  {
+        window.decorationSelectDialog = createDecorationSelectDialog();
+    }
+</script>
+
+<div class="{{ classname }}">
+    {% if help_text %}
+        <div class="object-help help">
+            {% icon name="help" %}
+            {{ help_text }}
+        </div>
+    {% endif %}
+
+    {% for child in children.values %}
+        <div class="field {% if child.block.required %}required{% endif %}" data-contentpath="{{ child.block.name }}">
+            {% if child.block.label %}
+                <label class="field__label" {% if child.id_for_label %}for="{{ child.id_for_label }}"{% endif %}>{{ child.block.label }}</label>
+            {% endif %}
+
+            {{ child.render_form }}
+
+            {% comment %}
+            This block triggers the autosize() function by faking an input event after the
+            document is fully loaded. It isn't pretty, but it works.
+            {% endcomment %}
+            {% if child.block.label == "Code" %}
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        var ta = document.getElementById('{{ child.id_for_label }}');
+                        var evt = new Event('input');
+                        ta.dispatchEvent(evt);
+                    });
+                </script>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>
