@@ -2,26 +2,26 @@
     template for editing page
 -->
 
-{% load static wagtailcore_tags wagtailadmin_tags wagtailshiki_tags %}
+{% load static wagtailcore_tags wagtailadmin_tags wagtail_shiki_tags %}
 <script>
     if (typeof css_loaded === "undefined") {
         const decorationsCss = document.createElement('link');
         decorationsCss.setAttribute('rel', 'stylesheet');
-        decorationsCss.setAttribute('href', '{% static "wagtailshiki/css/decorations.css" %}');
+        decorationsCss.setAttribute('href', '{% static "wagtail_shiki/css/decorations.css" %}');
         decorationsCss.setAttribute('title', 'WAGSDecorationsStyleRules');
         document.body.append(decorationsCss);
         
         const css = document.createElement('link');
         css.setAttribute('rel', 'stylesheet');
-        css.setAttribute('href', '{% static "wagtailshiki/css/wagtailshiki.css" %}');
+        css.setAttribute('href', '{% static "wagtail_shiki/css/wagtail-shiki.css" %}');
         document.body.append(css);
 
         const adminCss = document.createElement('link');
         adminCss.setAttribute('rel', 'stylesheet');
-        adminCss.setAttribute('href', '{% static "wagtailshiki/css/wagtailshiki-admin.css" %}');
+        adminCss.setAttribute('href', '{% static "wagtail_shiki/css/wagtail-shiki-admin.css" %}');
         document.body.append(adminCss);
 
-        import("{% static 'wagtailshiki/js/syntax-highlight.js' %}").then((module) => {
+        import("{% static 'wagtail_shiki/js/wagtail-shiki.js' %}").then((module) => {
             module.setCSSStyleSheets({% decoration_styles %})
         });
 

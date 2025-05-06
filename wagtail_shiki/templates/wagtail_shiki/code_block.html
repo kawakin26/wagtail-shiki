@@ -1,22 +1,22 @@
 <!--
 template for viewing page
 -->
-{% load static wagtailshiki_tags %}
+{% load static wagtail_shiki_tags %}
 {% spaceless %}
     <script>
         if (typeof css_loaded === "undefined") {
             const decorationsCss = document.createElement('link');
             decorationsCss.setAttribute('rel', 'stylesheet');
-            decorationsCss.setAttribute('href', '{% static "wagtailshiki/css/decorations.css" %}');
+            decorationsCss.setAttribute('href', '{% static "wagtail_shiki/css/decorations.css" %}');
             decorationsCss.setAttribute('title', 'WAGSDecorationsStyleRules');
             document.body.append(decorationsCss);
 
             const css = document.createElement('link');
             css.setAttribute('rel', 'stylesheet');
-            css.setAttribute('href', '{% static "wagtailshiki/css/wagtailshiki.css" %}');
+            css.setAttribute('href', '{% static "wagtail_shiki/css/wagtail-shiki.css" %}');
             document.body.append(css);
 
-            import("{% static 'wagtailshiki/js/syntax-highlight.js' %}").then((module) => {
+            import("{% static 'wagtail_shiki/js/wagtail-shiki.js' %}").then((module) => {
                 module.setCSSStyleSheets({% decoration_styles %})
             });
 
@@ -28,7 +28,7 @@ template for viewing page
     <div id="current-{{ shik_wrapper_id }}" class="shiki-wrapper"></div>
  
     <script type="module">
-        import {renderPreviewBlock} from "{% static 'wagtailshiki/js/syntax-highlight.js' %}";
+        import {renderPreviewBlock} from "{% static 'wagtail_shiki/js/wagtail-shiki.js' %}";
         /*
             define global variables registered in base.py(settings.py) if not defined
         */

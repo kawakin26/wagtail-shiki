@@ -86,21 +86,21 @@ class CodeBlock(StructBlock):
 
     class Meta:
         icon = "code"
-        template = "wagtailshiki/code_block.html"
+        template = "wagtail_shiki/code_block.html"
         form_classname = "code-block struct-block"
-        form_template = "wagtailshiki/code_block_form.html"
+        form_template = "wagtail_shiki/code_block_form.html"
 
 
 class CodeBlockAdapter(StructBlockAdapter):
-    js_constructor = "wagtailshiki.blocks.CodeBlock"
+    js_constructor = "wagtail_shiki.blocks.CodeBlock"
 
     @cached_property
     def media(self):
         structblock_media = super().media
         return Media(
             js=structblock_media._js +
-            ["wagtailshiki/js/wagtailshiki.js"],
-            # ["js/wagtailshiki.js"],
+            ["wagtail_shiki/js/wagtail-shiki-admin.js"],
+            # ["js/wagtail-shiki-admin.js"],
             css=structblock_media._css,
         )
 

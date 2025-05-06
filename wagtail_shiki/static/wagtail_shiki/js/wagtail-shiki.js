@@ -1,12 +1,12 @@
 /**
- * syntax-highlight.js
+ * wagtail-shiki.js
  * 
  * This module provides functions for syntax highlighting and rendering code blocks.
  * 
  * @module syntax-highlight
  * 
  * @requires shiki
- * @requires wagtailshiki
+ * @requires wagtai-lshiki
  * 
  * @author kawakin
  * @license MIT

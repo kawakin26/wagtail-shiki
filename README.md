@@ -17,7 +17,7 @@ You can set each themes for light and dark modes.
 pip install wagtail-shiki
 ```
 
-And add `wagtailshiki` to `INSTALLED_APPS` in mysite/settings/base.py.
+And add `wagtail_shiki` to `INSTALLED_APPS` in mysite/settings/base.py.
 
 ```python
 INSTALLED_APPS = [
@@ -29,7 +29,7 @@ INSTALLED_APPS = [
     "wagtail.sites",
     "wagtail.users",
     #... other packages
-    "wagtailshiki",   # <- add this.
+    "wagtail_shiki",   # <- add this.
 ]
 ```
 
@@ -58,7 +58,7 @@ _mysite/settings/base.py_
 ```python
 INSTALLED_APPS = [
     #... other packages
-    "wagtailshiki",   # <- add this.
+    "wagtail_shiki",   # <- add this.
 ]
 ```
 \
@@ -70,7 +70,7 @@ from wagtail.fields import StreamField
 from wagtail.models import Page
 from wagtail.admin.panels import FieldPanel
 
-from wagtailshiki.blocks import CodeBlock
+from wagtail_shiki.blocks import CodeBlock
 
 
 class HomePage(Page):
@@ -244,7 +244,7 @@ Some utility functions for creating CSS styles are provided in the module to eas
 To use these functions, import them from the module:
 
 ```python
-from wagtailshiki.settings import (
+from wagtail_shiki.settings import (
     css_style_underline as underline,
     css_style_dashedborder as dashedborder,
     css_style_bg_colored as bg_colored,
@@ -304,7 +304,7 @@ WAGS_DECORATION_OPTIONS overrides the default settings, if you want to keep them
 #### base settings for customize
 
 ```python
-from wagtailshiki.settings import (
+from wagtail_shiki.settings import (
     css_style_underline as underline,
     css_style_dashedborder as dashedborder,
     css_style_bg_colored as bg_colored,

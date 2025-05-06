@@ -53,7 +53,7 @@ class CodeBlockDefinition extends window.wagtailStreamField.blocks
       let showLineNumbers = showLineNumbersFieldElement.checked;
       let startNumber = startNumberFieldElement.value || 1;
       let highlightWordsStr = highlightWordsFieldElement.value;
-      import('./syntax-highlight.js').then(async (mod) => {
+      import('./wagtail-shiki.js').then(async (mod) => {
         await mod.renderPreviewBlock(title, code, lang, shikiSet.theme, shikiSet.darkTheme, shikiWrapperElement, showLineNumbers, startNumber, highlightWordsStr);
       });
     }
@@ -88,7 +88,7 @@ class CodeBlockDefinition extends window.wagtailStreamField.blocks
     return block;
   }
 }
-window.telepath.register('wagtailshiki.blocks.CodeBlock', CodeBlockDefinition);
+window.telepath.register('wagtail_shiki.blocks.CodeBlock', CodeBlockDefinition);
 
 /**
  * Add or delete highlighted syntax definition data according to the selection in the select box.
@@ -116,7 +116,7 @@ async function addHighlightWord(start, end, className, target) {
   let highlightWordsStr = highlightWordsFieldElement.value;   // syntax highlighting definition data string (uneditable)
   let shikiWrapperElement = await getShikiWrapperElement(codeBlockRootElement);   // container element for shiki highlighted <pre> 
 
-  import('./syntax-highlight.js').then(async (mod) => {
+  import('./wagtail-shiki.js').then(async (mod) => {
     let highlightWords = await mod.restructHighlightWord(code, start, end, className, highlightWordsStr);
     highlightWordsStr = JSON.stringify(highlightWords).replace("[", "").replace("]", "");
     highlightWordsFieldElement.value = highlightWordsStr;
