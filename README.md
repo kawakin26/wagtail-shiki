@@ -114,13 +114,13 @@ After the server starts, go to http://127.0.0.1:8000/admin" .
 \
 Clicking the "+" Add button in the body section, and click "Code" to add a code block.
 
-![add_code_block](https://github.com/user-attachments/assets/565a9707-96ae-4356-b79c-41685a4c44ed)
+<img src="https://github.com/user-attachments/assets/2f042cff-926d-4126-b66e-347665196ca2" alt="add code block" />
 
 \
 \
 Then you can edit the code block.
 
-![editting_code_block](https://github.com/user-attachments/assets/a82d1047-bc2a-48ee-b515-0fec7254c822)
+<img src="https://github.com/user-attachments/assets/a384b955-7033-462e-9e26-227306b2591d" alt="edit view" />
 
 ## Various settings
 
@@ -400,7 +400,9 @@ A list of languages ​​to enable. 'ansi' and 'text' are always enabled.
 ## Usage
 
 
-https://github.com/user-attachments/assets/f7b97510-55cc-4690-99aa-42a5b6edc63e
+<video src="https://github.com/user-attachments/assets/89d0c6d7-24b4-44c9-874e-ce2f48bc7c65" type="video/webm" controls>
+</video>
+
 
 
 
