@@ -155,7 +155,7 @@ If true, the decoration of the rear side leading spaces will be deleted.
 ### WAGS_HIDE_HIGHLIGHTWORDS_INPUT (default = True)
 
 If true, the "Highlight Words" field(uneditable) will be hidden.
-Set this to False for debugging.
+This is for debugging.
 
 ### WAGS_CLASS_PREFIX (default = 'wags')
 

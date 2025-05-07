@@ -52,14 +52,14 @@ class CodeBlock(StructBlock):
                     ),
                 ),
                 ("show_line_numbers", BooleanBlock(label=_("Show line numbers"),
-                                                   default=True, required=False, identifier="show_line_number", help_text=_("If check this, CodeBlock show line numbers."))),
+                                                   default=True, required=False, identifier="show_line_number", help_text=_("show if checked."))),
                 ("start_number", IntegerBlock(label=_("Start number"),
-                                              required=False, identifier="start_number", help_text=_("Starting line number. (Optional)."))),
+                                              required=False, identifier="start_number", help_text=_("(Optional)."))),
                 ("title", CharBlock(label=_("Title"),
                                     required=False, identifier="title", help_text=_("Filename, etc. Leave this blank, if you don't need."))),
                 ("code", TextBlock(label=_("Code"), identifier="code")),
                 ("highlight_words", TextBlock(label=_("Highlight Words"),
-                                              required=False, identifier="highlight_words", help_text=_("Highlight words. (Optional)."))),
+                                              required=False, identifier="highlight_words", help_text=_("Decoration definition data.(uneditable)"))),
             ]
         )
 

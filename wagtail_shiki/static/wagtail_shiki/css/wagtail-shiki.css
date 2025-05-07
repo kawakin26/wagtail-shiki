@@ -128,3 +128,21 @@ html.dark .code-title {
 		margin: 50px 5%;
 	}
 }
+
+div.code-block > div.field[data-contentpath="language"],
+div.code-block > div.field[data-contentpath="show_line_numbers"],
+div.code-block > div.field[data-contentpath="start_number"] {
+	float: left;
+	margin-right: 10%;
+}
+
+div.code-block > div.field[data-contentpath="show_line_numbers"] {
+	width: 16%;
+}
+div.code-block > div.field[data-contentpath="start_number"] {
+	width: 20%;
+}
+div.code-block > div.field[data-contentpath="title"] {
+	clear: both;
+}
+
