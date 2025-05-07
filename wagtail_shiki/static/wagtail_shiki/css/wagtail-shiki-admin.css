@@ -1,5 +1,5 @@
-pre.shiki.line-numbers .line::before {
-	color: whitesmoke;
+pre.shiki.line-numbers code {
+	color: inherit;;
 }
 
 #highlight_words_dialog {

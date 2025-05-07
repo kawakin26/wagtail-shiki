@@ -138,7 +138,7 @@ The theme for light mode.
 
 ### WAGS_DARK_THEME (default = WAGS_THEME)
 
-The theme for dark mode.If this is not set, it will map the light theme to the dark theme.
+The theme for dark mode.If this is not set, it will map the light theme to the dark theme.\
 As a result, the same theme will be assigned to light mode and dark mode.
 
 ### WAGS_SKIP_LEADING_SPACES (default = True)
