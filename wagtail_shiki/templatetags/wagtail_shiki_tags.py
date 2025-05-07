@@ -37,7 +37,7 @@ def set_var(parser, token):
 
 @register.simple_tag
 def theme():
-    return getattr(settings, "WAGS_THEME", "dark-plus")
+    return getattr(settings, "WAGS_THEME", "nord")
 
 
 @register.simple_tag

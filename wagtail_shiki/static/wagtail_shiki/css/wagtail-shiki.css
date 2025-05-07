@@ -83,7 +83,8 @@ pre.shiki.line-numbers .line::before {
 pre.shiki>code {
 	position: relative;
 	padding-left: 0em;
-	background-color: var(--shiki-bg);
+	background-color: inherit;
+	box-shadow: none;
 }
 
 pre.shiki span.line {

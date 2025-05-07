@@ -132,7 +132,7 @@ If true, line numbers will be displayed. You can set the starting line number by
 
 If true, copy to clipboard button will be displayed.
 
-### WAGS_THEME (default = 'everforest-dark')
+### WAGS_THEME (default = 'nord')
 
 The theme for light mode.
 
