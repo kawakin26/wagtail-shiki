@@ -42,7 +42,7 @@ def theme():
 
 @register.simple_tag
 def dark_theme():
-    return getattr(settings, "WAGS_DARK_THEME", "light-plus")
+    return getattr(settings, "WAGS_DARK_THEME", theme())
 
 
 @register.simple_tag
