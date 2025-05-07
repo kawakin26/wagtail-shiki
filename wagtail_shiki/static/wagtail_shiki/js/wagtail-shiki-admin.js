@@ -16,7 +16,7 @@ class CodeBlockDefinition extends window.wagtailStreamField.blocks
     let titleFieldElement = document.getElementById(prefix + '-title');
     let highlightWordsFieldElement = document.getElementById(prefix + '-highlight_words');
     let highlightWordsBlockElement = highlightWordsFieldElement.closest('div.field');
-    highlightWordsBlockElement.hidden = shikiSet.hideHighlightWordsInput;
+    highlightWordsBlockElement.hidden = !shikiSet.ShowHighlightWordsInput;
 
     let shikiWrapperElement = document.createElement('div');
     shikiWrapperElement.classList.add('shiki-wrapper');

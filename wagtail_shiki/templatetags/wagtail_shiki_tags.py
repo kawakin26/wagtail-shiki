@@ -112,8 +112,8 @@ def decoration_styles():
 
 
 @register.simple_tag
-def hide_highlightwords_input():
-    return getattr(settings, "WAGS_HIDE_HIGHLIGHTWORDS_INPUT", True)
+def show_highlightwords_input():
+    return getattr(settings, "WAGS_SHOW_HIGHLIGHTWORDS_INPUT", False)
 
 
 @register.simple_tag

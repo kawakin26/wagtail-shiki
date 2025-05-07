@@ -153,14 +153,14 @@ If true, the decoration of the front side leading spaces will be deleted.
 
 If true, the decoration of the rear side leading spaces will be deleted.
 
-### WAGS_HIDE_HIGHLIGHTWORDS_INPUT (default = True)
+### WAGS_SHOW_HIGHLIGHTWORDS_INPUT (default = False)
 
-If true, the "Highlight Words" field(uneditable) will be hidden.
-This is for debugging.
+If true, the "Highlight Words" field(uneditable) will be shown.\
+This is only for debugging.
 
 ### WAGS_CLASS_PREFIX (default = 'wags')
 
-The prefix for the CSS class name for decorations.
+The prefix for the CSS class name for decorations.\
 This parameter and the following "-" will be prepended to the value of the "value" key in "WAGS_DECORATION_OPTIONS" and used as a CSS class.
 
 ### WAGS_DECORATION_OPTIONS
@@ -236,8 +236,8 @@ default = [
 
 ```
 
-* These five kind ofcharacters `<`, `>`, `'`, `"`, `&` in the string of each value of keys 'value' and 'text' are removeed.
-* The last option `{'value': '', 'text': 'Remove decoration(s)', 'style': ''}` is for Remove decoration(s)s.
+* These five kind ofcharacters `<`, `>`, `'`, `"`, `&` in the string of each value of keys 'value', 'text' and 'style' are removeed.
+* The last option `{'value': '', 'text': 'Remove decoration(s)', 'style': ''}` is for Remove decoration(s).
 If valu of 'value' is empty string, the decoration will be removed.(The value of 'value' will be the CSS class name for the selected span.)
 
 Some utility functions for creating CSS styles are provided in the module to ease the creation of decoration options in `basy.py`.
