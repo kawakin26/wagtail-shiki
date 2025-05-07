@@ -124,31 +124,32 @@ Then you can edit the code block.
 
 ## Various settings
 
-### WAGS_LINE_NUMBERS (deault = True)
+### WAGS_LINE_NUMBERS (default = True)
 
 If true, line numbers will be displayed. You can set the starting line number by inputting "Start number" field in the code block editing screen.
 
-### WAGS_COPY_TO_CLIPBOARD (deault = True)
+### WAGS_COPY_TO_CLIPBOARD (default = True)
 
 If true, copy to clipboard button will be displayed.
 
-### WAGS_THEME (deault = 'everforest-dark')
+### WAGS_THEME (default = 'everforest-dark')
 
 The theme for light mode.
 
-### WAGS_DARK_THEME (deault = 'everforest-light')
+### WAGS_DARK_THEME (default = WAGS_THEME)
 
-The theme for dark mode.
+The theme for dark mode.If this is not set, it will map the light theme to the dark theme.
+As a result, the same theme will be assigned to light mode and dark mode.
 
-### WAGS_SKIP_LEADING_SPACES (deault = True)
+### WAGS_SKIP_LEADING_SPACES (default = True)
 
 If true, the decoration of the leading spaces will be skipped to show.
 
-### WAGS_DECORATONS_REMOVE_FRONT_SPAACE (deault = True)
+### WAGS_DECORATONS_REMOVE_FRONT_SPAACE (default = True)
 
 If true, the decoration of the front side leading spaces will be deleted.
 
-### WAGS_DECORATONS_REMOVE_REAR_SPAACE (deault = True)
+### WAGS_DECORATONS_REMOVE_REAR_SPAACE (default = True)
 
 If true, the decoration of the rear side leading spaces will be deleted.
 
@@ -383,7 +384,7 @@ WAGS_DECORATION_OPTIONS = [
 A list of languages ​​to enable. 'ansi' and 'text' are always enabled.
 
 ```python
-  deault= (
+  default= (
     ("bash", "Bash/Shell"),
     ("css", "CSS"),
     ("diff", "diff"),
