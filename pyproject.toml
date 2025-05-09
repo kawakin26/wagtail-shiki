@@ -6,7 +6,7 @@ dynamic = ["version"]
 readme = "README.md"
 requires-python = ">=3.9"
 keywords = ["wagtail", "shiki", "cms", "syntax", "code", "highlighting", "highlighter"]
-license = "License :: OSI Approved :: BSD License"
+license = "BSD-3-Clause"
 classifiers = [
     "Development Status :: 4 - Beta",
     "Environment :: Web Environment",
