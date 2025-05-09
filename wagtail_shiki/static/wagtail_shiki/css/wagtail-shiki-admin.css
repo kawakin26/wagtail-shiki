@@ -2,6 +2,14 @@ pre.shiki.line-numbers code {
 	color: inherit;;
 }
 
+div.code-block h3.code-title,
+div.code-block pre.shiki
+{
+	margin-left: 0;
+	margin-right: 0;
+}	
+
+
 #highlight_words_dialog {
 	width: 32em;
 	border: none;
