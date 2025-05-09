@@ -122,7 +122,7 @@ DEFAULT_DECORATION_OPTIONS = [
     },
     {
         'value': '',
-        'text': 'Remove decoration(s)',
+        'text': 'REMOVE',
         'style': ''
     }
 ]
