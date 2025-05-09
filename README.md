@@ -1,5 +1,4 @@
-![PyPI - Version](https://img.shields.io/pypi/v/wagtail-shiki) ![GitHub Release](https://img.shields.io/github/v/release/kawakin26/wagtail-shiki) ![GitHub License](https://img.shields.io/github/license/kawakin26/wagtail-shiki) [![Supported Python versions](https://img.shields.io/pypi/pyversions/wagtail-shiki.svg?style=flat-square)](https://pypi.org/project/wagtail-shiki) [![Publish Python 🐍 distribution 📦 to PyPI](https://github.com/kawakin26/wagtail-shiki/actions/workflows/publish-to-pypi.yml/badge.svg)](https://github.com/kawakin26/wagtail-shiki/actions/workflows/publish-to-pypi.yml)
-# Wagtail Shiki
+![PyPI - Version](https://img.shields.io/pypi/v/wagtail-shiki) ![GitHub License](https://img.shields.io/github/license/kawakin26/wagtail-shiki) [![Supported Python versions](https://img.shields.io/pypi/pyversions/wagtail-shiki.svg?style=flat-square)](https://pypi.org/project/wagtail-shiki)
 
 __Wagtail Shiki__ is based on [Wagtail Code Block](https://github.com/FlipperPA/wagtailcodeblock).
 
