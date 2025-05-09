@@ -13,7 +13,7 @@
  * 
  * @version 1.0.0
  */
-import { createHighlighter } from 'https://esm.run/shiki@3.0.0'
+import { createHighlighter } from 'https://esm.run/shiki@3.4.0'
 /**
  * 
  * Get the HTML format string from the syntax highlighting configuration data. (pre element is root)
