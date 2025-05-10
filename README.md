@@ -1,4 +1,4 @@
-![PyPI - Version](https://img.shields.io/pypi/v/wagtail-shiki) ![GitHub License](https://img.shields.io/github/license/kawakin26/wagtail-shiki) [![Supported Python versions](https://img.shields.io/pypi/pyversions/wagtail-shiki.svg?style=flat-square)](https://pypi.org/project/wagtail-shiki)
+![PyPI - Version](https://img.shields.io/pypi/v/wagtail-shiki) ![GitHub License](https://img.shields.io/github/license/kawakin26/wagtail-shiki) [![Supported Python versions](https://img.shields.io/pypi/pyversions/wagtail-shiki.svg?style=flat-square)](https://pypi.org/project/wagtail-shiki) ![Static Badge](https://img.shields.io/badge/shiki-3.4.0-blue)
 
 __Wagtail Shiki__ is based on [Wagtail Code Block](https://github.com/FlipperPA/wagtailcodeblock).
 
@@ -400,10 +400,42 @@ A list of languages ​​to enable. 'ansi' and 'text' are always enabled.
 
 ## Usage
 
+Here's how to use this block in the editing screen of the admin site.
+### Language
 
-<video src="https://github.com/user-attachments/assets/89d0c6d7-24b4-44c9-874e-ce2f48bc7c65" type="video/webm" controls>
-</video>
+![language_select](https://github.com/user-attachments/assets/8a682b86-8d14-4421-9db2-95a36a6463cf)
+
+Open the pull-down selector box in the Language field and select the language to use for syntax highlighting.
+
+### Show line numbers
+
+Check the "Show line numbers" checkbox to show line numbers.
+
+![codeblock_options](https://github.com/user-attachments/assets/d7a4b382-694b-4d57-90bc-deb68977e550)
+
+### Start number
+
+If you need to specify the starting line number, please enter it here.
+If this field is blank, start from line number "1".
+
+### Title
+
+If you want to display the file name, title, etc., enter it here.
+If nothing is entered, the title block will not be displayed.
+
+### Code
+
+Enter the code text here that you want to apply syntax highlighting to.
 
 
+### Applying text decorations
 
+![deco_edit](https://github.com/user-attachments/assets/2dc472a4-e3c0-4657-bb06-4cad5538e3c7)
 
+Select the code range you want to decorate in the preview box of syntax highlighting, click the right button of the mouse, select decoration (or remove), and press the "OK" button to apply the specified item.
+
+Click the "Cancel" button to cancel the operation.
+
+A pop-up menu will be displayed when you right-click if both the start and end points of the selection are in the same preview box and you right-click inside that preview box.
+
+The menu does not appear if the selection includes the outside of the preview box, or if you right-click in a preview box other than the one in which the range was selected.
