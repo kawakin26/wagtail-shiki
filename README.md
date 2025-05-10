@@ -267,6 +267,7 @@ WAGS_DECORATION_OPTIONS = [
     ...
 ]
 ```
+
 It will expanded to:
 
 ```python
@@ -401,9 +402,10 @@ A list of languages ​​to enable. 'ansi' and 'text' are always enabled.
 ## Usage
 
 Here's how to use this block in the editing screen of the admin site.
+
 ### Language
 
-![language_select](https://github.com/user-attachments/assets/8a682b86-8d14-4421-9db2-95a36a6463cf)
+<img src="https://github.com/user-attachments/assets/8a682b86-8d14-4421-9db2-95a36a6463cf" alt="language_select" />
 
 Open the pull-down selector box in the Language field and select the language to use for syntax highlighting.
 
@@ -411,7 +413,7 @@ Open the pull-down selector box in the Language field and select the language to
 
 Check the "Show line numbers" checkbox to show line numbers.
 
-![codeblock_options](https://github.com/user-attachments/assets/d7a4b382-694b-4d57-90bc-deb68977e550)
+<img src="https://github.com/user-attachments/assets/d7a4b382-694b-4d57-90bc-deb68977e550" alt="codeblock_options" />
 
 ### Start number
 
@@ -430,7 +432,7 @@ Enter the code text here that you want to apply syntax highlighting to.
 
 ### Applying text decorations
 
-![deco_edit](https://github.com/user-attachments/assets/2dc472a4-e3c0-4657-bb06-4cad5538e3c7)
+<img src="https://github.com/user-attachments/assets/2dc472a4-e3c0-4657-bb06-4cad5538e3c7" alt="add_decoration" />
 
 Select the code range you want to decorate in the preview box of syntax highlighting, click the right button of the mouse, select decoration (or remove), and press the "OK" button to apply the specified item.
 
