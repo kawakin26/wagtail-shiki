@@ -114,13 +114,13 @@ After the server starts, go to http://127.0.0.1:8000/admin" .
 \
 Clicking the "+" Add button in the body section, and click "Code" to add a code block.
 
-<img src="https://github.com/user-attachments/assets/2f042cff-926d-4126-b66e-347665196ca2" alt="add code block" />
+![](https://github.com/user-attachments/assets/6a00eaf2-25b3-4f54-8992-18f482c4a879)
 
 \
 \
 Then you can edit the code block.
 
-<img src="https://github.com/user-attachments/assets/a384b955-7033-462e-9e26-227306b2591d" alt="edit view" />
+![](https://github.com/user-attachments/assets/d3defd10-f877-4f46-acf2-556e9adbf742)
 
 ## Various settings
 
@@ -405,15 +405,15 @@ Here's how to use this block in the editing screen of the admin site.
 
 ### Language
 
-<img src="https://github.com/user-attachments/assets/8a682b86-8d14-4421-9db2-95a36a6463cf" alt="language_select" />
-
 Open the pull-down selector box in the Language field and select the language to use for syntax highlighting.
+
+![](https://github.com/user-attachments/assets/6099df30-08ef-4578-a9b4-2184b1791eae)
 
 ### Show line numbers
 
 Check the "Show line numbers" checkbox to show line numbers.
 
-<img src="https://github.com/user-attachments/assets/d7a4b382-694b-4d57-90bc-deb68977e550" alt="codeblock_options" />
+![](https://github.com/user-attachments/assets/d3defd10-f877-4f46-acf2-556e9adbf742)
 
 ### Start number
 
@@ -432,7 +432,7 @@ Enter the code text here that you want to apply syntax highlighting to.
 
 ### Applying text decorations
 
-<img src="https://github.com/user-attachments/assets/2dc472a4-e3c0-4657-bb06-4cad5538e3c7" alt="add_decoration" />
+![](https://github.com/user-attachments/assets/2dc472a4-e3c0-4657-bb06-4cad5538e3c7)
 
 Select the code range you want to decorate in the preview box of syntax highlighting, click the right button of the mouse, select decoration (or remove), and press the "OK" button to apply the specified item.
 
