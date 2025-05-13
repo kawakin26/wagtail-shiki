@@ -67,7 +67,7 @@ export async function highlightCode(code, lang, theme, darkTheme, highlightWords
   }
 
   if (!lang) {
-    lang = 'ansi';
+    lang = 'text';
   } else if (lang == "django") {
     lang = 'jinja';
   }
@@ -122,7 +122,7 @@ export async function renderPreviewBlock(title, code, lang, theme, darkTheme, sh
   }
 
   if (!lang) {
-    lang = 'ansi';
+    lang = 'text';
   } else if (lang == "django") {
     lang = 'jinja';
   }

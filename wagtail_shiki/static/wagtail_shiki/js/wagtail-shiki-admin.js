@@ -27,8 +27,9 @@ class CodeBlockDefinition extends window.wagtailStreamField.blocks
       let selection = document.getSelection();
       let anchorNode = selection.anchorNode;
       let focusNode = selection.focusNode;
+      let previewBodyElement = shikiWrapperElement.querySelector('pre');
 
-      if (selection.type == 'Range' && shikiWrapperElement.contains(anchorNode) && shikiWrapperElement.contains(focusNode)) {
+      if (selection.type == 'Range' && previewBodyElement.contains(anchorNode) && previewBodyElement.contains(focusNode)) {
         e.preventDefault();
         if (window.decorationSelectDialog) {
           window.selection_start = selection.anchorOffset + getPreviousTextCount(anchorNode);
