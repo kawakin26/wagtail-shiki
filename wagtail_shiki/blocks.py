@@ -3,6 +3,7 @@ import wagtail
 from django.forms import Media
 from django.utils.functional import cached_property
 from django.utils.translation import gettext_lazy as _
+from django.conf import settings
 
 from wagtail.blocks import (
     BooleanBlock,
@@ -47,7 +48,8 @@ class CodeBlock(StructBlock):
                         choices=language_choices,
                         help_text=_("Coding language"),
                         label=_("Language"),
-                        default=language_default or 'ansi',
+                        default=language_default or self.get_initial_languge(
+                            language_choices),
                         identifier="language",
                     ),
                 ),
@@ -64,6 +66,13 @@ class CodeBlock(StructBlock):
         )
 
         super().__init__(local_blocks, **kwargs)
+
+    def get_initial_languge(self, language_choices):
+        initial_lang = getattr(settings, "WAGS_INITIAL_LANGUAGE", "")
+        if initial_lang in [lang[0] for lang in language_choices]:
+            return initial_lang
+        else:
+            return "text"
 
     def get_language_choice_list(self, **kwargs):
         # Get default languages
