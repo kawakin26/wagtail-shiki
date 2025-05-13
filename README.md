@@ -460,122 +460,83 @@ The menu does not appear if the selection includes the outside of the preview bo
 
 ## Themes Gallery
 
-<img src="https://github.com/user-attachments/assets/78e38bcb-0f9f-46ff-aeaa-c7f6a7840b73" alt="andromeeda" width="250">
+| <img src="https://github.com/user-attachments/assets/b91d811c-0fc6-4434-ace7-1e2641630c3b" alt="andromeeda" width="250"> | <img src="https://github.com/user-attachments/assets/3b149641-aa6a-41fc-a105-6825a34a9a42" alt="aurora-x" width="250"> | <img src="https://github.com/user-attachments/assets/a5625baf-6f25-4a2d-8ca5-d560ecc4eebe" alt="ayu-dark" width="250"> |
+|:---:|:---:|:---:|
+| andromeeda | aurora-x | ayu-dark |
 
-<img src="https://github.com/user-attachments/assets/3b149641-aa6a-41fc-a105-6825a34a9a42" alt="aurora-x" width="250">
+| <img src="https://github.com/user-attachments/assets/d2fd7083-fbec-4815-8b79-399d359a193c" alt="catppuccin-frappe" width="250"> | <img src="https://github.com/user-attachments/assets/78fceeb4-3167-4b5d-a2b8-e184c00f634a" alt="catppuccin-latte" width="250"> | <img src="https://github.com/user-attachments/assets/e2bbdafa-c52c-40a0-93e2-aeb8cd0b5f38" alt="catppuccin-macchiato" width="250"> |
+|:---:|:---:|:---:|
+| catppuccin-frappe | catppuccin-latte | catppuccin-macchiato |
 
-<img src="https://github.com/user-attachments/assets/a5625baf-6f25-4a2d-8ca5-d560ecc4eebe" alt="ayu-dark" width="250">
+| <img src="https://github.com/user-attachments/assets/3869ba55-2eb4-4a23-aadd-f96ee3b1889c" alt="catppuccin-mocha" width="250"> | <img src="https://github.com/user-attachments/assets/b63242e6-a025-4d05-a8bd-bffe949c7091" alt="dark-plus" width="250"> | <img src="https://github.com/user-attachments/assets/715bdf67-9395-48e6-9694-e1b3facbdfbb" alt="dracula" width="250"> |
+|:---:|:---:|:---:|
+| catppuccin-mocha | dark-plus | dracula |
 
-<img src="https://github.com/user-attachments/assets/d2fd7083-fbec-4815-8b79-399d359a193c" alt="catppuccin-frappe" width="250">
+| <img src="https://github.com/user-attachments/assets/6299ae1a-8751-4e1a-a366-520c8297c994" alt="dracula-soft" width="250"> | <img src="https://github.com/user-attachments/assets/0abd93a2-b669-49b1-b502-e4da9d18248a" alt="everforest-dark" width="250"> | <img src="https://github.com/user-attachments/assets/631e58fd-4f0e-48b1-8e31-aed665708494" alt="everforest-light" width="250"> |
+|:---:|:---:|:---:|
+| dracula-soft | everforest-dark | everforest-light |
 
-<img src="https://github.com/user-attachments/assets/78fceeb4-3167-4b5d-a2b8-e184c00f634a" alt="catppuccin-latte" width="250">
+| <img src="https://github.com/user-attachments/assets/5c0e3707-362a-4b48-91fe-31bf590096a7" alt="github-dark" width="250"> | <img src="https://github.com/user-attachments/assets/faaaf21c-228a-4a3b-919d-30756e362ede" alt="github-dark-default" width="250"> | <img src="https://github.com/user-attachments/assets/e26fe849-d2e1-4449-8324-d6bd4ab31147" alt="github-dark-dimmed" width="250"> |
+|:---:|:---:|:---:|
+| github-dark | github-dark-default | github-dark-dimmed |
 
-<img src="https://github.com/user-attachments/assets/e2bbdafa-c52c-40a0-93e2-aeb8cd0b5f38" alt="catppuccin-macchiato" width="250">
+| <img src="https://github.com/user-attachments/assets/cf5fb035-cd73-474e-a9ef-238f9f83fe4d" alt="github-dark-high-contrast" width="250"> | <img src="https://github.com/user-attachments/assets/d7a0c522-e75f-41d7-91de-e188bb5ab0ef" alt="github-light" width="250"> | <img src="https://github.com/user-attachments/assets/95e739b6-7813-438b-b129-ed1ed2d29255" alt="github-light-default" width="250"> |
+|:---:|:---:|:---:|
+| github-dark-high-contrast | github-light | github-light-default |
 
-<img src="https://github.com/user-attachments/assets/3869ba55-2eb4-4a23-aadd-f96ee3b1889c" alt="catppuccin-mocha" width="250">
+| <img src="https://github.com/user-attachments/assets/38c2d453-d985-4e0e-9840-4668db4660e5" alt="github-light-high-contrast" width="250"> | <img src="https://github.com/user-attachments/assets/1e1f9fb6-7755-4fa5-8865-28d77d175a19" alt="gruvbox-dark-hard" width="250"> | <img src="https://github.com/user-attachments/assets/b677d85c-388a-41f1-816c-51966debafbb" alt="gruvbox-dark-medium" width="250"> |
+|:---:|:---:|:---:|
+| github-light-high-contrast | gruvbox-dark-hard | gruvbox-dark-medium |
 
-<img src="https://github.com/user-attachments/assets/b63242e6-a025-4d05-a8bd-bffe949c7091" alt="dark-plus" width="250">
+| <img src="https://github.com/user-attachments/assets/0e48cbaf-7401-4b5c-97f7-ac2f7cc940fb" alt="gruvbox-dark-soft" width="250"> | <img src="https://github.com/user-attachments/assets/f51825b2-f3d2-4cbb-90fc-0f6288902130" alt="gruvbox-light-hard" width="250"> | <img src="https://github.com/user-attachments/assets/75d4d5aa-fe75-4389-a038-ca0081258977" alt="gruvbox-light-medium" width="250"> |
+|:---:|:---:|:---:|
+| gruvbox-dark-soft | gruvbox-light-hard | gruvbox-light-medium |
 
-<img src="https://github.com/user-attachments/assets/715bdf67-9395-48e6-9694-e1b3facbdfbb" alt="dracula" width="250">
+| <img src="https://github.com/user-attachments/assets/ee696c85-69a5-4138-b77a-7fbdfbe63cc6" alt="gruvbox-light-soft" width="250"> | <img src="https://github.com/user-attachments/assets/a920e639-c02a-48c2-88b4-5face75bbd05" alt="houston" width="250"> | <img src="https://github.com/user-attachments/assets/5307e4a9-c973-40ab-bc3f-e7d6a3185e76" alt="kanagawa-dragon" width="250"> |
+|:---:|:---:|:---:|
+| gruvbox-light-soft | houston | kanagawa-dragon |
 
-<img src="https://github.com/user-attachments/assets/6299ae1a-8751-4e1a-a366-520c8297c994" alt="dracula-soft" width="250">
+| <img src="https://github.com/user-attachments/assets/bfbfd3d7-330c-4320-83eb-8601faa39f7d" alt="kanagawa-lotus" width="250"> | <img src="https://github.com/user-attachments/assets/0d3f9879-df76-416d-b4fd-cde4cd912cab" alt="kanagawa-wave" width="250"> | <img src="https://github.com/user-attachments/assets/c57b0169-6566-4c43-914f-b559f5020120" alt="laserwave" width="250"> |
+|:---:|:---:|:---:|
+| kanagawa-lotus | kanagawa-wave | laserwave |
 
-<img src="https://github.com/user-attachments/assets/0abd93a2-b669-49b1-b502-e4da9d18248a" alt="everforest-dark" width="250">
+| <img src="https://github.com/user-attachments/assets/e09a151a-651c-4046-ae10-b82b4806a019" alt="light-plus" width="250"> | <img src="https://github.com/user-attachments/assets/37d2371c-7489-4d4c-9eb0-b6441adebfa5" alt="material-theme" width="250"> | <img src="https://github.com/user-attachments/assets/dd230fc2-1ce9-4845-a1b2-f838d9638074" alt="material-theme-darker" width="250"> |
+|:---:|:---:|:---:|
+| light-plus | material-theme | material-theme-darker |
 
-<img src="https://github.com/user-attachments/assets/631e58fd-4f0e-48b1-8e31-aed665708494" alt="everforest-light" width="250">
+| <img src="https://github.com/user-attachments/assets/cdb68cec-59c4-4849-90b8-8fbc178c0589" alt="material-theme-lighter" width="250"> | <img src="https://github.com/user-attachments/assets/05aa18f3-3f98-4c70-be0b-0761292f7eb7" alt="material-theme-ocean" width="250"> | <img src="https://github.com/user-attachments/assets/e7c79f53-c13c-4f0e-b93f-189af7a875ea" alt="material-theme-palenight" width="250"> |
+|:---:|:---:|:---:|
+| material-theme-lighter | material-theme-ocean | material-theme-palenight |
 
-<img src="https://github.com/user-attachments/assets/5c0e3707-362a-4b48-91fe-31bf590096a7" alt="github-dark" width="250">
+| <img src="https://github.com/user-attachments/assets/db6b4ecf-c403-45e2-8fa4-0e4eba55cde6" alt="min-dark" width="250"> | <img src="https://github.com/user-attachments/assets/4e5734a6-0427-4f35-9903-bda6cb434793" alt="min-light" width="250"> | <img src="https://github.com/user-attachments/assets/f77763f2-9b60-46d1-9c90-de2e4f875a25" alt="monokai" width="250"> |
+|:---:|:---:|:---:|
+| min-dark | min-light | monokai |
 
-<img src="https://github.com/user-attachments/assets/faaaf21c-228a-4a3b-919d-30756e362ede" alt="github-dark-default" width="250">
+| <img src="https://github.com/user-attachments/assets/e5a308a2-7a50-4199-b9d1-ac6643e7e4fd" alt="night-owl" width="250"> | <img src="https://github.com/user-attachments/assets/56215d12-bce4-45c9-909b-87110dc48cea" alt="nord" width="250"> | <img src="https://github.com/user-attachments/assets/c17e1f65-daaa-4f3a-99bf-a2bd32fff176" alt="one-dark-pro" width="250"> |
+|:---:|:---:|:---:|
+| night-owl | nord | one-dark-pro |
 
-<img src="https://github.com/user-attachments/assets/e26fe849-d2e1-4449-8324-d6bd4ab31147" alt="github-dark-dimmed" width="250">
+| <img src="https://github.com/user-attachments/assets/b14e7869-423d-4a86-8764-2442dfc9507d" alt="one-light" width="250"> | <img src="https://github.com/user-attachments/assets/608b9f34-d7a9-4e6a-8855-347e79b72443" alt="plastic" width="250"> | <img src="https://github.com/user-attachments/assets/becf2793-50cd-4442-9ce1-3d15207e0b36" alt="poimandres" width="250"> |
+|:---:|:---:|:---:|
+| one-light | plastic | poimandres |
 
-<img src="https://github.com/user-attachments/assets/cf5fb035-cd73-474e-a9ef-238f9f83fe4d" alt="github-dark-high-contrast" width="250">
+| <img src="https://github.com/user-attachments/assets/ce9a5795-3664-4e12-b421-ff3b2c51fc19" alt="red" width="250"> | <img src="https://github.com/user-attachments/assets/23be88bb-a747-4dd9-b3eb-49f42d0f1ce7" alt="rose-pine" width="250"> | <img src="https://github.com/user-attachments/assets/cda28fc3-c271-4b7f-992b-f5b3a943dbe2" alt="rose-pine-dawn" width="250"> |
+|:---:|:---:|:---:|
+| red | rose-pine | rose-pine-dawn |
 
-<img src="https://github.com/user-attachments/assets/d7a0c522-e75f-41d7-91de-e188bb5ab0ef" alt="github-light" width="250">
+| <img src="https://github.com/user-attachments/assets/3453a9ad-28e4-4d1a-be32-c007ac1ee7b6" alt="rose-pine-moon" width="250"> | <img src="https://github.com/user-attachments/assets/6c7c1cc7-4f36-439e-80a9-e41c5f8276d3" alt="slack-dark" width="250"> | <img src="https://github.com/user-attachments/assets/dea6f21a-0d14-44cd-8657-9803df449787" alt="slack-ochin" width="250"> |
+|:---:|:---:|:---:|
+| rose-pine-moon | slack-dark | slack-ochin |
 
-<img src="https://github.com/user-attachments/assets/95e739b6-7813-438b-b129-ed1ed2d29255" alt="github-light-default" width="250">
+| <img src="https://github.com/user-attachments/assets/d65e4137-3eb7-4629-9399-8bf379cf44a1" alt="snazzy-light" width="250"> | <img src="https://github.com/user-attachments/assets/ba3b9767-6440-4040-953e-a906709439e8" alt="solarized-dark" width="250"> | <img src="https://github.com/user-attachments/assets/c59ecc5d-e7cb-4a1a-b86d-dddfe796bda7" alt="solarized-light" width="250"> |
+|:---:|:---:|:---:|
+| snazzy-light | solarized-dark | solarized-light |
 
-<img src="https://github.com/user-attachments/assets/38c2d453-d985-4e0e-9840-4668db4660e5" alt="github-light-high-contrast" width="250">
+| <img src="https://github.com/user-attachments/assets/95bda361-b1b8-4005-b559-6c3795e92bc6" alt="synthwave-84" width="250"> | <img src="https://github.com/user-attachments/assets/1fa0bffc-d118-4777-a7bb-e11535c1a923" alt="tokyo-night" width="250"> | <img src="https://github.com/user-attachments/assets/c57f7e2f-f985-41a8-bcd4-48386c9c0cf0" alt="vesper" width="250"> |
+|:---:|:---:|:---:|
+| synthwave-84 | tokyo-night | vesper |
 
-<img src="https://github.com/user-attachments/assets/1e1f9fb6-7755-4fa5-8865-28d77d175a19" alt="gruvbox-dark-hard" width="250">
+| <img src="https://github.com/user-attachments/assets/cc0e576d-f269-4d62-b3df-b25b6e974b63" alt="vitesse-black" width="250"> | <img src="https://github.com/user-attachments/assets/80d267f1-d6f2-476d-924a-5f9581021b8d" alt="vitesse-dark" width="250"> | <img src="https://github.com/user-attachments/assets/df014744-8ec8-4bcd-9055-bcc6cda614ef" alt="vitesse-light" width="250"> |
+|:---:|:---:|:---:|
+| vitesse-black | vitesse-dark | vitesse-light |
 
-<img src="https://github.com/user-attachments/assets/b677d85c-388a-41f1-816c-51966debafbb" alt="gruvbox-dark-medium" width="250">
-
-<img src="https://github.com/user-attachments/assets/df014744-8ec8-4bcd-9055-bcc6cda614ef" alt="vitesse-light" width="250">
-
-<img src="https://github.com/user-attachments/assets/8d2a6164-539f-448d-9455-1ebede3659b7" alt="vitesse-dark" width="250">
-
-<img src="https://github.com/user-attachments/assets/cc0e576d-f269-4d62-b3df-b25b6e974b63" alt="vitesse-black" width="250">
-
-<img src="https://github.com/user-attachments/assets/c57f7e2f-f985-41a8-bcd4-48386c9c0cf0" alt="vesper" width="250">
-
-<img src="https://github.com/user-attachments/assets/1fa0bffc-d118-4777-a7bb-e11535c1a923" alt="tokyo-night" width="250">
-
-<img src="https://github.com/user-attachments/assets/34b8ef91-5743-442d-913e-1caad5bb587e" alt="synthwave-84" width="250">
-
-<img src="https://github.com/user-attachments/assets/c59ecc5d-e7cb-4a1a-b86d-dddfe796bda7" alt="solarized-light" width="250">
-
-<img src="https://github.com/user-attachments/assets/ba3b9767-6440-4040-953e-a906709439e8" alt="solarized-dark" width="250">
-
-<img src="https://github.com/user-attachments/assets/d65e4137-3eb7-4629-9399-8bf379cf44a1" alt="snazzy-light" width="250">
-
-<img src="https://github.com/user-attachments/assets/540b867a-48cd-4d86-a111-cf6cad30e6f1" alt="slack-ochin" width="250">
-
-<img src="https://github.com/user-attachments/assets/6c7c1cc7-4f36-439e-80a9-e41c5f8276d3" alt="slack-dark" width="250">
-
-<img src="https://github.com/user-attachments/assets/3453a9ad-28e4-4d1a-be32-c007ac1ee7b6" alt="rose-pine-moon" width="250">
-
-<img src="https://github.com/user-attachments/assets/cda28fc3-c271-4b7f-992b-f5b3a943dbe2" alt="rose-pine-dawn" width="250">
-
-<img src="https://github.com/user-attachments/assets/23be88bb-a747-4dd9-b3eb-49f42d0f1ce7" alt="rose-pine" width="250">
-
-<img src="https://github.com/user-attachments/assets/ce9a5795-3664-4e12-b421-ff3b2c51fc19" alt="red" width="250">
-
-<img src="https://github.com/user-attachments/assets/becf2793-50cd-4442-9ce1-3d15207e0b36" alt="poimandres" width="250">
-
-<img src="https://github.com/user-attachments/assets/1866c53a-c5db-404c-8424-692a8d348ee9" alt="plastic" width="250">
-
-<img src="https://github.com/user-attachments/assets/b14e7869-423d-4a86-8764-2442dfc9507d" alt="one-light" width="250">
-
-<img src="https://github.com/user-attachments/assets/c17e1f65-daaa-4f3a-99bf-a2bd32fff176" alt="one-dark-pro" width="250">
-
-<img src="https://github.com/user-attachments/assets/0a241ae0-c003-4d21-ad77-1a7cbecb886d" alt="nord" width="250">
-
-<img src="https://github.com/user-attachments/assets/e5a308a2-7a50-4199-b9d1-ac6643e7e4fd" alt="night-owl" width="250">
-
-<img src="https://github.com/user-attachments/assets/f77763f2-9b60-46d1-9c90-de2e4f875a25" alt="monokai" width="250">
-
-<img src="https://github.com/user-attachments/assets/4e5734a6-0427-4f35-9903-bda6cb434793" alt="min-light" width="250">
-
-<img src="https://github.com/user-attachments/assets/db6b4ecf-c403-45e2-8fa4-0e4eba55cde6" alt="min-dark" width="250">
-
-<img src="https://github.com/user-attachments/assets/d435243c-6278-45aa-9edd-2b09f939a910" alt="material-theme-palenight" width="250">
-
-<img src="https://github.com/user-attachments/assets/05aa18f3-3f98-4c70-be0b-0761292f7eb7" alt="material-theme-ocean" width="250">
-
-<img src="https://github.com/user-attachments/assets/23215290-1b56-40f6-a533-af5ec0d06c79" alt="material-theme-lighter" width="250">
-
-<img src="https://github.com/user-attachments/assets/dd230fc2-1ce9-4845-a1b2-f838d9638074" alt="material-theme-darker" width="250">
-
-<img src="https://github.com/user-attachments/assets/37d2371c-7489-4d4c-9eb0-b6441adebfa5" alt="material-theme" width="250">
-
-<img src="https://github.com/user-attachments/assets/e09a151a-651c-4046-ae10-b82b4806a019" alt="light-plus" width="250">
-
-<img src="https://github.com/user-attachments/assets/c57b0169-6566-4c43-914f-b559f5020120" alt="laserwave" width="250">
-
-<img src="https://github.com/user-attachments/assets/0d3f9879-df76-416d-b4fd-cde4cd912cab" alt="kanagawa-wave" width="250">
-
-<img src="https://github.com/user-attachments/assets/bfbfd3d7-330c-4320-83eb-8601faa39f7d" alt="kanagawa-lotus" width="250">
-
-<img src="https://github.com/user-attachments/assets/5307e4a9-c973-40ab-bc3f-e7d6a3185e76" alt="kanagawa-dragon" width="250">
-
-<img src="https://github.com/user-attachments/assets/a920e639-c02a-48c2-88b4-5face75bbd05" alt="houston" width="250">
-
-<img src="https://github.com/user-attachments/assets/ee696c85-69a5-4138-b77a-7fbdfbe63cc6" alt="gruvbox-light-soft" width="250">
-
-<img src="https://github.com/user-attachments/assets/75d4d5aa-fe75-4389-a038-ca0081258977" alt="gruvbox-light-medium" width="250">
-
-<img src="https://github.com/user-attachments/assets/f51825b2-f3d2-4cbb-90fc-0f6288902130" alt="gruvbox-light-hard" width="250">
-
-<img src="https://github.com/user-attachments/assets/0e48cbaf-7401-4b5c-97f7-ac2f7cc940fb" alt="gruvbox-dark-soft" width="250">
