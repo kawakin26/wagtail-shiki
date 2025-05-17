@@ -1,0 +1,13 @@
+h3.code-title {
+	position: absolute;
+	padding: 0;
+	color: var(--shiki);
+	z-index: 10;
+	top: -1.8em;
+	left: 0;
+	transition: opacity 0.3s ease-in-out;
+	opacity: 0.8;
+	letter-spacing: 0.05em;
+	text-decoration: underline darkgray 2px;
+	text-underline-offset: 5px;
+}

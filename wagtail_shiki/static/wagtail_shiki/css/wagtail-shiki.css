@@ -1,3 +1,5 @@
+@import url("./title-block/title-block.css");
+
 /* copy button */
 div.shiki-wrapper {
 	position: relative;
@@ -31,24 +33,6 @@ div.shiki-wrapper>button.copy-button {
 	font-size: 1em;
 	padding: 0 .5em;
 	background: rgba(224, 224, 224, 0.2);
-}
-
-/* code title */
-h3.code-title {
-	position: absolute;
-	padding: 0em 0.5em;
-	color: var(--shiki);
-	border-left: solid 6px #168edf;
-	border-bottom: solid 1px #168edf;
-	border-radius: 5px 0 0 5px;
-	z-index: 10;
-	top: -2em;
-	left: 0em;
-	transition: opacity 0.3s ease-in-out;
-	opacity: 0.8;
-	font-size: 80%;
-	letter-spacing: 0.05em;
-	/*mix-blend-mode:  exclusion;*/
 }
 
 /* code body */
