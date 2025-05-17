@@ -440,6 +440,7 @@ If this field is blank, start from line number "1".
 
 If you want to display the file name, title, etc., enter it here.
 If nothing is entered, the title block will not be displayed.
+For design customization of title block, see [here](#title-block-style-customization).
 
 ### Code
 
@@ -457,6 +458,16 @@ Click the "Cancel" button to cancel the operation.
 A pop-up menu will be displayed when both the start and end points of the selection are in the same preview box and you right-click inside that preview box.
 
 The menu does not appear if the selection includes the outside of the preview box, or if you right-click outside of the preview box which the range was selected.
+
+## Title Block style customization
+
+The title block stylesheet is separated from `wagtail-shiki.css` and placed under the `title-block` subdirectory.`title-block.css` is loaded by default.
+
+Example style sheets for customization are placed in the same directory. `title-block-default.css` has the same content as `title-block.css` in the initial.
+
+You can set the example stylesheet by renaming files to `title-block.css` or rewrite  the file name in the @import statement, top of  `wagtail_shiki/static/wagtail_shiki/css/wagtail-shiki.css` file.
+
+Of course, you can also set your own style sheet.
 
 ## Themes Gallery
 
